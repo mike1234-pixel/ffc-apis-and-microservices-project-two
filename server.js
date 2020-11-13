@@ -32,9 +32,7 @@ app.get("/api/whoami", (req, res) => {
   res.send({"ipaddress": ip,"language" : language, "software": software})
 })
 
-
-
 // listen for requests :)
-var listener = app.listen(process.env.PORT, function () {
-  console.log('Your app is listening on port ' + listener.address().port);
+app.listen(process.env.PORT || 3000, function () {
+  console.log('Node.js listening ...');
 });

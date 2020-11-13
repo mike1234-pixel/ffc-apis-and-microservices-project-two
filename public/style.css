@@ -1,25 +1,27 @@
-/****** Main Styling ******/
-
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
-	text-align: center;
-	line-height: 1.4em;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #222;
+  background-image: url("./images/waterdroplets.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  line-height: 1.4em;
 }
 
 .container {
-	padding: 0;
-	margin-top: 40px;
+  padding: 0;
+  margin-top: 40px;
 }
 
+h2,
 h3 {
   margin-top: 30px;
 }
 
 .footer {
-	margin-top: 40px;
+  margin-top: 40px;
 }
 
 .user-stories {
@@ -32,13 +34,14 @@ code {
   font-family: monospace;
   padding: 2px;
   color: black;
-  background-color: #fff;
+  background-color: rgba(111, 228, 243, 0.712);
+  font-weight: bold;
 }
 ol {
-	list-style-position: outside;
+  list-style-position: outside;
 }
 ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 li {
@@ -49,5 +52,5 @@ li {
 }
 
 a {
-	color: #2574A9;
+  color: #2574a9;
 }
